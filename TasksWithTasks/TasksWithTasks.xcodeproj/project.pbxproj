@@ -12,6 +12,21 @@
 		6B685E792243CA7800625DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B685E772243CA7800625DF2 /* Main.storyboard */; };
 		6B685E7B2243CA7800625DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B685E7A2243CA7800625DF2 /* Assets.xcassets */; };
 		6B685E7E2243CA7800625DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B685E7C2243CA7800625DF2 /* LaunchScreen.storyboard */; };
+		6BEB0D312243CD0600599A81 /* TasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D302243CD0600599A81 /* TasksListViewController.swift */; };
+		6BEB0D342244A6B000599A81 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D332244A6B000599A81 /* UIStoryboard.swift */; };
+		6BEB0D382244A7EB00599A81 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D372244A7EB00599A81 /* Task.swift */; };
+		6BEB0D3A2244A82500599A81 /* SimpleTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D392244A82500599A81 /* SimpleTask.swift */; };
+		6BEB0D412244AF2C00599A81 /* TasksStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D402244AF2C00599A81 /* TasksStorage.swift */; };
+		6BEB0D432244B76A00599A81 /* TaskWithoutTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D422244B76A00599A81 /* TaskWithoutTasks.swift */; };
+		6BEB0D4B2244FD5500599A81 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB0D482244FD5500599A81 /* 4.json */; };
+		6BEB0D4C2244FD5500599A81 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB0D492244FD5500599A81 /* 1.json */; };
+		6BEB0D4D2244FD5500599A81 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB0D4A2244FD5500599A81 /* 2.json */; };
+		6BEB0D4F2244FD9F00599A81 /* PersonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D4E2244FD9F00599A81 /* PersonParser.swift */; };
+		6BEB0D512244FDDC00599A81 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D502244FDDC00599A81 /* Person.swift */; };
+		6BEB0D532244FE7F00599A81 /* PersonParser1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D522244FE7F00599A81 /* PersonParser1.swift */; };
+		6BEB0D552245021500599A81 /* PersonParser2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D542245021500599A81 /* PersonParser2.swift */; };
+		6BEB0D572245025A00599A81 /* PersonParser3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB0D562245025A00599A81 /* PersonParser3.swift */; };
+		6BEB0D59224504F700599A81 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB0D582245044200599A81 /* 3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		6B685E7A2243CA7800625DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B685E7D2243CA7800625DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B685E7F2243CA7800625DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEB0D302243CD0600599A81 /* TasksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewController.swift; sourceTree = "<group>"; };
+		6BEB0D332244A6B000599A81 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		6BEB0D372244A7EB00599A81 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		6BEB0D392244A82500599A81 /* SimpleTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTask.swift; sourceTree = "<group>"; };
+		6BEB0D402244AF2C00599A81 /* TasksStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksStorage.swift; sourceTree = "<group>"; };
+		6BEB0D422244B76A00599A81 /* TaskWithoutTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWithoutTasks.swift; sourceTree = "<group>"; };
+		6BEB0D482244FD5500599A81 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		6BEB0D492244FD5500599A81 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		6BEB0D4A2244FD5500599A81 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		6BEB0D4E2244FD9F00599A81 /* PersonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonParser.swift; sourceTree = "<group>"; };
+		6BEB0D502244FDDC00599A81 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		6BEB0D522244FE7F00599A81 /* PersonParser1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonParser1.swift; sourceTree = "<group>"; };
+		6BEB0D542245021500599A81 /* PersonParser2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonParser2.swift; sourceTree = "<group>"; };
+		6BEB0D562245025A00599A81 /* PersonParser3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonParser3.swift; sourceTree = "<group>"; };
+		6BEB0D582245044200599A81 /* 3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,61 @@
 		6B685E722243CA7800625DF2 /* TasksWithTasks */ = {
 			isa = PBXGroup;
 			children = (
+				6BEB0D442244FB0700599A81 /* JSONParse */,
 				6B685E732243CA7800625DF2 /* AppDelegate.swift */,
+				6BEB0D3D2244ACC500599A81 /* DataBase */,
+				6BEB0D322244A69700599A81 /* Extensions */,
 				6B685E752243CA7800625DF2 /* ViewController.swift */,
+				6BEB0D302243CD0600599A81 /* TasksListViewController.swift */,
 				6B685E772243CA7800625DF2 /* Main.storyboard */,
+				6BEB0D372244A7EB00599A81 /* Task.swift */,
+				6BEB0D392244A82500599A81 /* SimpleTask.swift */,
+				6BEB0D422244B76A00599A81 /* TaskWithoutTasks.swift */,
 				6B685E7A2243CA7800625DF2 /* Assets.xcassets */,
 				6B685E7C2243CA7800625DF2 /* LaunchScreen.storyboard */,
 				6B685E7F2243CA7800625DF2 /* Info.plist */,
 			);
 			path = TasksWithTasks;
+			sourceTree = "<group>";
+		};
+		6BEB0D322244A69700599A81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB0D332244A6B000599A81 /* UIStoryboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6BEB0D3D2244ACC500599A81 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB0D402244AF2C00599A81 /* TasksStorage.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		6BEB0D442244FB0700599A81 /* JSONParse */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB0D472244FBB700599A81 /* Resource */,
+				6BEB0D4E2244FD9F00599A81 /* PersonParser.swift */,
+				6BEB0D522244FE7F00599A81 /* PersonParser1.swift */,
+				6BEB0D542245021500599A81 /* PersonParser2.swift */,
+				6BEB0D562245025A00599A81 /* PersonParser3.swift */,
+				6BEB0D502244FDDC00599A81 /* Person.swift */,
+			);
+			path = JSONParse;
+			sourceTree = "<group>";
+		};
+		6BEB0D472244FBB700599A81 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB0D492244FD5500599A81 /* 1.json */,
+				6BEB0D4A2244FD5500599A81 /* 2.json */,
+				6BEB0D582245044200599A81 /* 3.json */,
+				6BEB0D482244FD5500599A81 /* 4.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +199,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BEB0D4B2244FD5500599A81 /* 4.json in Resources */,
+				6BEB0D4C2244FD5500599A81 /* 1.json in Resources */,
 				6B685E7E2243CA7800625DF2 /* LaunchScreen.storyboard in Resources */,
+				6BEB0D59224504F700599A81 /* 3.json in Resources */,
+				6BEB0D4D2244FD5500599A81 /* 2.json in Resources */,
 				6B685E7B2243CA7800625DF2 /* Assets.xcassets in Resources */,
 				6B685E792243CA7800625DF2 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +216,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BEB0D512244FDDC00599A81 /* Person.swift in Sources */,
+				6BEB0D572245025A00599A81 /* PersonParser3.swift in Sources */,
+				6BEB0D342244A6B000599A81 /* UIStoryboard.swift in Sources */,
 				6B685E762243CA7800625DF2 /* ViewController.swift in Sources */,
+				6BEB0D382244A7EB00599A81 /* Task.swift in Sources */,
+				6BEB0D312243CD0600599A81 /* TasksListViewController.swift in Sources */,
+				6BEB0D3A2244A82500599A81 /* SimpleTask.swift in Sources */,
+				6BEB0D412244AF2C00599A81 /* TasksStorage.swift in Sources */,
+				6BEB0D432244B76A00599A81 /* TaskWithoutTasks.swift in Sources */,
 				6B685E742243CA7800625DF2 /* AppDelegate.swift in Sources */,
+				6BEB0D532244FE7F00599A81 /* PersonParser1.swift in Sources */,
+				6BEB0D4F2244FD9F00599A81 /* PersonParser.swift in Sources */,
+				6BEB0D552245021500599A81 /* PersonParser2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
